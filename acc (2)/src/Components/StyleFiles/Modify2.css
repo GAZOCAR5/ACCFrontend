@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1281px){ /*PC display*/
+    .Main_Modify2{
+       background-image: url('/src/Components/StyleFiles/uai_background2.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       background-position: center center;
+       height: 100vh;
+   }
+   .Main_Modify2_Content{
+    margin-top: 5%;
+    background-color: whitesmoke;
+    width: 80%;
+    margin-left: 10%;
+}
+    .button1_Modify2{
+        align-items: self-start;
+    }
+    .dropdown_custom{
+    background-color:rgb(221, 227, 228);
+    }
+    .Modify2_table{
+    background-color: whitesmoke;
+    }
+   }
+   

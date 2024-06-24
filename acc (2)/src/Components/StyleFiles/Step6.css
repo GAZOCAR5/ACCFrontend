@@ -1,0 +1,74 @@
+@media only screen and  (min-width: 800px) and (max-width: 1280px) and (orientation: portrait) { /*Para tablets en vertical*/
+   .Main_Step6{
+         background-image: url('/src/Components/StyleFiles/uai_background2.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-attachment: fixed;
+         background-position: center center;
+         height: 100vh; 
+         padding-top: 1%;
+         padding-inline: 5%;   
+   }
+   .Main_Step6_Text{
+      background-color: whitesmoke;
+      height: 50%; 
+      margin-top: 25%;
+      padding-block: 3%;
+      padding-inline: 5%;
+      border-radius: 5px;
+   }
+   .Main_Step6_Tittle{
+      margin-bottom: 4%;
+   }
+   .Main_Step6_Dropdown{
+      float: left;
+   }
+   .btn-Main_Step6_Button1{
+      background-color:rgb(111, 197, 226)!important;
+      margin-left: 0%;
+   }
+   .btn-Main_Step6_Button2{
+      background-color: rgb(39, 211, 131)!important;
+      margin-top: 28% !important;
+      margin-left: 160%;
+      margin-right: 20%;
+   }
+}
+
+@media only screen and (min-width: 1281px){ /*PC display*/
+   
+   .Main_Step6{
+      background-image: url('/src/Components/StyleFiles/uai_background2.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+      height: 100vh; 
+      padding-top: 1%;
+      padding-inline: 20%;  
+   }
+   .Main_Step6_Text{
+      background-color: whitesmoke;
+      height: 57%; 
+      margin-top: 10%;
+      padding-block: 3%;
+      padding-inline: 5%;
+      border-radius: 5px; 
+   }
+   .Main_Step6_Tittle{
+      margin-bottom: 4%;
+   }
+   .Main_Step6_Dropdown{
+    float: left;
+   }
+   .btn-Main_Step6_Button1{
+    background-color:rgb(111, 197, 226)!important;
+    margin-left: 0%;
+   }
+   .btn-Main_Step6_Button2{
+    background-color: rgb(39, 211, 131)!important;
+    margin-top: 28% !important;
+    margin-left: 523%;
+   }   
+}
+   

@@ -1,0 +1,27 @@
+@media only screen and (min-width: 1281px){ /*PC display*/
+  .Main_Grades{
+    background-image: url('/src/Components/StyleFiles/uai_background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    padding-top: 1%;
+    padding-inline: 10%;
+    padding-bottom: 10%;
+  }
+  .Main_Grades_Content{
+    margin-top: 8%;
+    background-color: whitesmoke;
+    padding-inline-end: 5%;
+  }
+  
+  .StudentSelect_Grades{
+    margin-left: 2%;
+  }
+
+  .Grades_Buttons{
+    margin-left: 2% !important;
+  }
+}
+  

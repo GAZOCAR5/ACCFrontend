@@ -1,0 +1,59 @@
+@media only screen and  (min-width: 800px) and (max-width: 1280px) and (orientation: portrait) { /*Para tablets en vertical*/
+   .Main_Step8{
+      background-image: url('/src/Components/StyleFiles/uai_background2.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+      height: 100vh; 
+      padding-top: 1%;
+      padding-inline: 5%;  
+    }
+   .Main_Step8_Text{
+      background-color: whitesmoke;
+      height: auto; 
+      margin-top: 25%;
+      padding-block: 3%;
+      padding-inline: 5%; 
+      border-radius: 5px;
+ }
+   .Step8_text{
+      margin-top: 2%;
+   }
+   .Main_Step8_Button2{
+      float: right;
+   }
+}
+
+@media only screen and (min-width: 1281px){ /*PC display*/
+   
+   .Main_Step8{
+      background-image: url('/src/Components/StyleFiles/uai_background2.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+      height: 100vh; 
+      padding-top: 1%;
+      padding-inline: 20%;  
+      }
+   .Main_Step8_Text{
+      background-color: whitesmoke;
+      height: auto; 
+      margin-top: 8%;
+      padding-block: 3%;
+      padding-inline: 5%; 
+      border-radius: 5px;
+   }
+   .Step8_text{
+      margin-top: 2%;
+   }
+   .dropdown-Main_Step8_Button1{
+      max-width: 50%;
+   }
+   .Main_Step8_Button2{
+      float: right;
+      margin-top: 0%;
+   }
+   }
+   

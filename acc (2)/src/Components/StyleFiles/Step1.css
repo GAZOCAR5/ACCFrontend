@@ -1,0 +1,160 @@
+@media only screen and  (min-width: 800px) and (max-width: 1280px) and (orientation: portrait) { /*Para tablets en vertical*/
+    .Top_Step{
+        background-color: black; 
+    }
+    
+    .logoUAI_Step{
+        width: 26%;
+        background-color: white;
+        margin-left: 37%;
+        padding-inline: 2px;
+        padding-block: 2px;
+        margin-bottom: 1%;
+    }
+    
+    .Top_Navbar_Step{
+        background-color: rgb(111, 197, 226);
+        width: 100%;
+        display: block;
+    }
+    .Current_Step{
+       display: flex;
+    }
+    .Top_Navbar_div_Step{
+        margin-left: 1%;
+        width: 100%;
+        height: 10%;
+    }
+    
+    .btn-Step_Language_Dropdown{
+        margin-right: 52% !important;
+        background-color: rgb(13, 110, 253) !important;
+        color: white !important;
+      }
+    
+    .Top_Navbar_item_1{ /*paso a paso*/
+        margin-right: 1% !important;
+       
+    }
+    
+    .Top_Navbar_item_2{ /*reglamento*/
+        margin-right: 1%;
+        
+    }
+    
+    .Top_Navbar_item_3{ /*calificaciones*/
+        margin-right: 1%;
+   
+    }
+    
+    .btn-Top_Navbar_item_4{ /*logout*/
+        margin-right: 1%;
+        background-color:rgb(255, 127, 127)!important;
+        color: white !important;   
+    }
+    
+    .Main_Step1{
+        background-image: url('/src/Components/StyleFiles/uai_background2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        height: 100vh; 
+        margin-top: 4%;
+        padding-inline: 5%; 
+    }
+    .Main_Step1_Content{
+        height: 80%;
+    }
+    .rules_pdf{
+       margin-top: 15%;
+       width: 100%;
+       height: 100%;
+    }
+    .ConfirmationButton_Step1{
+       margin: auto;
+       padding-inline: 43%;
+    }
+      
+}
+@media only screen and (min-width: 1281px){ /*PC display*/
+   .Top_Step{
+       background-color: black; 
+   }
+   
+   .logoUAI_Step{
+       width: 18%;
+       background-color: white;
+       margin-left: 2%;
+       padding-inline: 2px;
+       padding-block: 2px;
+   }
+   
+   .Top_Navbar_Step{
+       background-color: rgb(111, 197, 226);
+       display: block;
+   }
+   .Current_Step{
+      display: flex;
+   }
+   .Top_Navbar_div_Step{
+       margin-left: 2%;
+       width: 100%;
+       height: 10%;
+   }
+
+   .btn-Step_Language_Dropdown{
+    margin-left: 61% !important;
+    background-color: rgb(13, 110, 253) !important;
+    color: white !important;
+  }
+   .Top_Navbar_item_1{ /*paso a paso*/
+       margin-right: 1% !important;
+       margin-left: 169.5%;
+       
+   }
+   
+   .Top_Navbar_item_2{ /*reglamento*/
+       margin-right: 1%;
+       margin-left: 131.5%;
+   }
+   
+   .Top_Navbar_item_3{ /*calificaciones*/
+       margin-right: 1%;
+       margin-left: 89%;
+   }
+   
+   .btn-Top_Navbar_item_4{ /*logout*/
+       margin-right: 1%;
+       background-color:rgb(255, 127, 127)!important;
+       margin-left: 51%;
+       
+   }
+   
+   .Main_Step1{
+       background-image: url('/src/Components/StyleFiles/uai_background2.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       background-position: center center;
+       height: 100vh; 
+       margin-top: 3.5%;
+       padding-inline: 20%; 
+    }
+    .Main_Step1_Content{
+        height: 100%;
+    }
+   .rules_pdf{
+      margin-top: 2%;
+   }
+   .ConfirmationButton_Step1{
+      margin-inline: auto;
+      margin-top: 1%;
+      padding-inline: 46%;
+
+   }
+   
+   
+
+}
+   

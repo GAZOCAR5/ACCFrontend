@@ -1,0 +1,98 @@
+@media only screen and (min-width: 1281px){ /*PC display*/
+    .Top_Landing2{
+        background-color: black; 
+    }
+    .Top_Navbar_Landing2{
+        background-color: rgb(111, 197, 226);
+        width: 100%;
+        display: block;
+    }
+    .Top_Navbar_Landing2{
+        background-color: rgb(111, 197, 226);
+        display: block;
+    }
+    .Top_Navbar_div_Landing2{
+        margin-left: 2%;
+        width: 100%;
+        height: 10%;
+    }
+    .logoUAI_Landing2{
+        width: 18%;
+       background-color: white;
+       margin-left: 2%;
+       padding-inline: 2px;
+       padding-block: 2px;
+    }
+    .Navbar_elements_Landing2{
+        margin-left: 40%;
+    }
+    .Main_Landing2{
+        background-image: url('/src/Components/StyleFiles/uai_background2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        height: 150vh;
+        padding-top: 1%;
+        padding-inline: 5%;
+        padding-bottom: 10%;
+   }
+   .table_landing2{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+   }
+   .table_landing2 thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .table_landing2 th,
+  .table_landing2 td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .table_landing2 tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .table_landing2 tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table_landing2 tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .table_landing2 td > div {
+    margin: 5px 0;
+  }
+    .Main_Landing2_Content{
+        margin-top: 5%;
+        background-color: whitesmoke;
+        padding-inline: 2%;
+        padding-bottom: 1%;
+    }
+   .btn-Landing2_Language_Dropdown{
+        background-color: rgb(13, 110, 253) !important;
+        color: white !important;
+        margin-left: 810%;
+   }
+   .btn-Top_Navbar_item_4_L2{
+        margin-left: 0%!important;
+        margin-right: 1%;
+        background-color:rgb(255, 127, 127)!important;
+        color: black;     
+   }
+   
+}
+   

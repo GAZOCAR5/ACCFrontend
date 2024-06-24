@@ -1,0 +1,82 @@
+.App-link {
+  color: #61dafb;
+}
+
+.logoUAI{
+  width: 60%;
+  align-items: center;
+  margin-top: 10%;
+  margin-inline: auto;
+  margin-bottom: 5%;
+}
+.Tabs{
+  align-items: center;
+  padding-inline: 1%;
+  margin-inline: 10px;
+  border-radius: 5px;
+}
+.wa{
+  /*Default para telefonos en vertical*/
+  background-color: lightblue;
+  align-items: center;
+  padding-inline: 1%;
+  margin-inline: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and  (min-width: 800px) and (max-width: 1280px) and (orientation: portrait) { /*Para tablets en vertical*/
+  .logoUAI{
+    width: 40%;
+    margin-bottom: 10%;
+  }
+  .wa {
+    width: 80%;
+    margin:auto;
+  }
+  .Tabs{
+    width: 80%;
+    margin:auto;
+  }
+}
+
+@media only screen and (min-width: 1281px){ /*Para pc*/
+  .Tabs{
+    width: 35%;
+    margin:auto;
+    margin-bottom: 0%;
+    padding-inline: 1%;
+    border-radius: 5px;
+  }
+  .Top{
+    display: flex;
+  }
+  .wa {
+    width: 35%;
+    margin:auto;
+    margin-top: 0%;
+    padding-inline: 1%;
+    border-radius: 5px;
+  }
+  
+  .Portal{
+    width: 280px;
+    margin-left: 1%;
+  }
+  
+  .logoUAI{
+  width: 30%;
+  }
+}
+
+.btn-buttonsignup{
+  background-color:rgb(255, 127, 127)!important; 
+  float: right;
+}
+.btn-Login_Language_Dropdown{
+  margin-left: 70% !important;
+  background-color: rgb(13, 110, 253) !important;
+  color: white !important;
+}
+.btn-buttonsignup{
+  color: white !important;
+}

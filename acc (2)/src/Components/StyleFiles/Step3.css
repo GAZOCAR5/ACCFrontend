@@ -1,0 +1,65 @@
+@media only screen and  (min-width: 800px) and (max-width: 1280px) and (orientation: portrait) { /*Para tablets en vertical*/
+   .Main_Step3{
+      background-image: url('/src/Components/StyleFiles/uai_background2.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+      height:110vh;
+      padding-inline: 5%; 
+      padding-top: 1%;
+      
+     }
+  .Main_Step3_Text{
+     background-color: whitesmoke;
+     height: auto; 
+     margin-top:25%;
+     padding-block: 3%;
+     padding-inline: 5%; 
+     border-radius: 5px;
+     
+  }
+  .btn-Main_Step3_Button1{
+   background-color: rgb(255, 127, 127)!important;
+   margin-top: 8px;
+  }
+  .btn-Main_Step3_Button2{
+   background-color: rgb(9, 187, 241)!important;
+   float: right;
+   margin-top: 8px;
+  }
+}
+@media only screen and (min-width: 1281px){ /*PC display*/
+   
+   .Main_Step3{
+       background-image: url('/src/Components/StyleFiles/uai_background2.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       background-position: center center;
+       height:110vh;
+       padding-inline: 20%; 
+       padding-top: 1%;
+       
+      }
+   .Main_Step3_Text{
+      background-color: whitesmoke;
+      height: auto; 
+      margin-top:7%;
+      padding-block: 3%;
+      padding-inline: 5%; 
+      border-radius: 5px;
+      
+   }
+   .btn-Main_Step3_Button1{
+    background-color: rgb(255, 127, 127)!important;
+    margin-top: 8px;
+   }
+   .btn-Main_Step3_Button2{
+    background-color: rgb(9, 187, 241)!important;
+    float: right;
+    margin-top: 8px;
+   }
+   
+   }
+   
